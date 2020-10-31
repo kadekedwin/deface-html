@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HahAHHahaHAHhha Youuu!!!!</title>
+
+	<style>
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: black;
+		}
+		#main-img{
+			display: block;
+			margin: auto;
+			width: 75%;
+		}
+		/*edwindev*/
+		h1{
+			color: #FFFFFF;
+			font-size: 50px;
+			text-align: center;
+			text-shadow: 0 0 15px #1ab4e7, 0 0 20px #1ab4e7, 0 0 40px #18a2d0, 0 0 50px #18a2d0, 0 0 65px #18a2d0;
+		}
+		#button{
+			display: block;
+			width: 200px;
+			height: 200px;
+			margin: auto;
+			box-shadow: 0 0 50px #1ab4e7;
+			cursor: pointer;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div>
+		<br><br><br><br>
+		<img id="main-img" src="https://a.top4top.io/p_1737v3z032.gif">
+		<br><br><br><br>
+		<h1>HahAHaha THIs PaGe Has Been HACKED</h1>
+
+		<audio loop class="playAudio">
+			<source src="https://h.top4top.io/m_1743n2bps1.mp3">
+		</audio>
+		<br><br><br><br><br><br>
+		<img id="button" src="https://c.top4top.io/p_1737810a94.png" class="playButton">
+	</div>
+	<br><br><br><br>
+
+<script type="text/javascript">
+
+	let playAudio = document.getElementsByClassName('playAudio')[0];
+	let playButton = document.getElementsByClassName('playButton')[0];
+	
+	
+	let main = false;
+
+	//edwindev
+
+	playButton.addEventListener("click", function(){
+		console.log(this.attributes[1].value);
+		if(playButton.attributes[1].value == imgButtinPl) {
+			playButton.attributes[1].value = imgButtonPs;
+		}
+		else{
+			playButton.attributes[1].value = imgButtonPl;
+		}
+		if(main == false) {
+			main = true;
+		}
+		else{
+			main = false;
+		}
+		
+		if(main){
+			playAudio.play();
+		}
+		else{
+			playAudio.pause();
+		}
+
+	}) 
+</script>	
+</body>
+</html>
+
