@@ -1,4 +1,4 @@
-# tryer
+# gloom
 hay.. ahahhahahaahha
 
 it just try to make script
