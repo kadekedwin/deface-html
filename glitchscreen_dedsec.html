@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HahAHHahaHAHhha Youuu!!!!</title>
+
+	<style>
+
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			background-color: #131313;
+		}
+		#main-img{
+			display: block;
+			margin: auto;
+			width: 45%;
+		}
+		h1.hackText{
+			color: #FFFFFF;
+			font-size: 30px;
+			text-align: center;
+			text-shadow: 0 0 15px #1ab4e7, 0 0 20px #1ab4e7, 0 0 40px #18a2d0, 0 0 50px #18a2d0, 0 0 65px #18a2d0;
+		}
+		.hacked{
+			color: #FFFFFF;
+			font-size: 100px;
+			text-align: center;
+			text-shadow: 0 0 15px #1ab4e7, 0 0 20px #1ab4e7, 0 0 40px #18a2d0, 0 0 50px #18a2d0, 0 0 65px #18a2d0;
+		}
+		#button{
+			display: block;
+			width: 200px;
+			height: 200px;
+			margin: auto;
+			box-shadow: 0 0 50px #1ab4e7;
+			cursor: pointer;
+		}
+		#dedsec{
+			display: block;
+			margin: auto;
+			margin-top: 50px;
+			width: 40%;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<div class="container">
+		<br><br><br>
+			
+		<img id="main-img" src="https://i.top4top.io/p_173712sf61.gif"><!---https://a.top4top.io/p_1737v3z032.gif // main-image2--->
+
+		<br>
+
+			<h1 class="hackText">Hahahaha this page has been</h1> 
+			<br>
+			<h1 class="hacked">HACKED!!!</h1>
+
+		<audio loop class="playAudio">
+			<source src="https://h.top4top.io/m_1743n2bps1.mp3">
+		</audio>
+		<br><br><br>
+		<img id="button" src="https://c.top4top.io/p_1737810a94.png" class="playButton">
+	</div>
+
+	<br><br><br><br><br><br><br><br><br>
+
+
+<script type="text/javascript">
+
+	let playAudio = document.getElementsByClassName('playAudio')[0];
+	let playButton = document.getElementsByClassName('playButton')[0];
+	let container = document.getElementsByClassName("container")[0];
+
+	// let main play for the audio
+	let main = false;
+	
+	// play audio, change playButton icon, and tell for "membesarkan volume" in console (when playButton clicked)
+	playButton.addEventListener("click", function(){
+
+		if(playButton.attributes[1].value == "https://c.top4top.io/p_1737810a94.png") {
+
+			if(!document.getElementsByClassName("tell")[0]){
+				playButton.classList.add("tell")
+				console.log("Besarkan Volume Untuk Mendengarkan!!!")
+			}
+
+			playButton.attributes[1].value = "https://b.top4top.io/p_1737unn9x3.png";
+			console.log("pause");
+		}
+		else{
+			playButton.attributes[1].value = "https://c.top4top.io/p_1737810a94.png";
+			console.log("play");
+		}
+		if(main == false) {
+			main = true;
+		}
+		else{
+			main = false;
+		}
+		
+		if(main){
+			playAudio.play();
+		}
+		else{
+			playAudio.pause();
+		}
+	}) 
+
+	//background particle
+
+	let particleColor = "hsl("+Math.floor(Math.random()*360)+Math.floor(Math.random()*100)+Math.floor(Math.random()*100)+")";
+	let ParticleSize = (Math.random()+3)*5;
+
+	let ulang = true;
+
+	let particle = document.createElement("div");
+
+
+
+</script>	
+</body>
+</html>
+
